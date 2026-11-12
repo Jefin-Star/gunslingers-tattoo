@@ -47,7 +47,7 @@ export const STUDIO_DETAILS = {
   address: "GUNSLINGERS TATTOO SCHOOL & STUDIO, Kochi, Kerala, India",
   mapsEmbedSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.7703300906915!2d76.3518809!3d10.108074399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080f20c9352c27%3A0x6124b2f5e5ee405e!2sGUNSLINGERS%20TATTOO%20SCHOOL%20%26%20STUDIO%20KOCHI!5e1!3m2!1sen!2sin!4v1794313693107!5m2!1sen!2sin",
   hours: "Monday – Sunday: 10:30 AM – 9:00 PM (Appointments Preferred)",
-  logoAsset: "/gunslingers-logo-transparent.png",
+  logoAsset: "./images/gunslingers-logo-light.png",
   logoAssetOriginal: "/gunslingers-logo-original.png",
   logoAssetRaw: "./images/721359d3-db01-4f81-b226-2219f438a138_3bf4671b.jpg",
   pricingSummary: [

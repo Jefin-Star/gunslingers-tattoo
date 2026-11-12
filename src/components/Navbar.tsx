@@ -24,9 +24,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onBookClick }) => {
         <a href="#" className="flex items-center gap-4 shrink-0 group">
           <div className="relative flex items-center justify-center transition-transform group-hover:scale-105 duration-300">
             <img 
-              src={STUDIO_DETAILS.logoAsset} 
+              src="./images/gunslingers-logo-light.png" 
               alt="Gunslingers Tattoo Logo" 
-              className="h-12 sm:h-14 w-auto object-contain block drop-shadow-none"
+              className="h-14 sm:h-16 w-auto object-contain block drop-shadow-none"
             />
           </div>
           <div className="flex flex-col">

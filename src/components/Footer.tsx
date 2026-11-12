@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-4">
               <div className="flex items-center justify-center shrink-0">
                 <img
-                  src={STUDIO_DETAILS.logoAssetOriginal}
+                  src="/src/assets/images/regenerated_image_1794471850681.jpg"
                   alt="Gunslingers Studio Mark"
                   className="h-11 w-auto object-contain block"
                 />
