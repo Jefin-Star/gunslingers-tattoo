@@ -200,42 +200,8 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onBookSpecific }) => {
           </div>
         </div>
 
-        {/* AI Analysis Feedback Notification */}
-        {analysisError && (
-          <div className="p-4 bg-red-50 border border-red-200 text-red-800 text-xs flex items-center justify-between gap-3">
-            <div className="flex items-center gap-2">
-              <AlertCircle className="w-4 h-4 shrink-0" />
-              <span>{analysisError}</span>
-            </div>
-            <button 
-              onClick={() => setAnalysisError(null)}
-              className="text-neutral-500 hover:text-black"
-            >
-              <X className="w-4 h-4" />
-            </button>
-          </div>
-        )}
-
-        {analyzedSuccessItem && (
-          <div className="p-5 bg-neutral-50 border-2 border-black flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 animate-fadeIn">
-            <div className="space-y-1">
-              <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-black font-bold">
-                <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                <span>Vision AI Analysis Complete: Added to Sticky Gallery</span>
-              </div>
-              <p className="text-xs text-neutral-600">
-                Identified style: <strong className="text-black">{analyzedSuccessItem.category}</strong> · Content: <strong className="text-black">{analyzedSuccessItem.contentSubject}</strong>
-              </p>
-            </div>
-            <button
-              onClick={() => setActiveModalWork(analyzedSuccessItem)}
-              className="text-xs uppercase font-bold tracking-wider text-black underline hover:text-neutral-600 flex items-center gap-1"
-            >
-              <Eye className="w-3.5 h-3.5" />
-              <span>Inspect Details</span>
-            </button>
-          </div>
-        )}
+        {/* Vision AI Analysis Feedback Notification removed per request */}
+        {/* Directly to the sticky gallery */}
 
         {/* LAYERED STICKY SCROLL GALLERY STRUCTURE */}
         {/* Each card is sticky-positioned with an incremental top offset, creating a graceful stacked deck transition */}
@@ -265,13 +231,6 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onBookSpecific }) => {
                         loading="lazy"
                       />
 
-                      {/* Vision AI Badge */}
-                      {work.aiAnalyzed && (
-                        <div className="absolute top-4 left-4 z-10 bg-black/90 text-white border border-white/20 px-3 py-1 flex items-center gap-1.5 text-[10px] font-mono uppercase tracking-widest backdrop-blur-md">
-                          <Sparkles className="w-3 h-3 text-amber-400" />
-                          <span>Vision AI Analyzed</span>
-                        </div>
-                      )}
 
                       {/* Hover view hint */}
                       <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">

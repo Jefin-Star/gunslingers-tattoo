@@ -49,7 +49,7 @@ export const STUDIO_DETAILS = {
   hours: "Monday – Sunday: 10:30 AM – 9:00 PM (Appointments Preferred)",
   logoAsset: "/gunslingers-logo-transparent.png",
   logoAssetOriginal: "/gunslingers-logo-original.png",
-  logoAssetRaw: "/assets/aistudio/721359d3-db01-4f81-b226-2219f438a138_3bf4671b.jpg",
+  logoAssetRaw: "./images/721359d3-db01-4f81-b226-2219f438a138_3bf4671b.jpg",
   pricingSummary: [
     { label: "Custom Tattoos", price: "From ₹2k", note: "Bespoke design & sterile execution" },
     { label: "Tattoo Training", price: "Starts ₹50k", note: "Comprehensive master diploma program" },
@@ -156,17 +156,7 @@ export const ARTISTS: Artist[] = [
     specialty: ["Dark Realism", "Custom Sleeves", "Cover-ups", "Fine-Line"],
     bio: "Pioneering high-precision tattooing in Kochi. Trained across international conventions, specializing in anatomically flowed large-scale pieces and tattoo artist education.",
     instagram: "https://www.instagram.com/gunslingerstattoostudio?rpxt=dXR0M3A2ZXU3NDhk",
-    avatar: "/src/assets/images/regenerated_image_1794466551453.jpg"
-  },
-  {
-    id: "fine-line-artist",
-    name: "Aria Vance",
-    role: "Senior Tattoo Artist & PMU Specialist",
-    experience: "7+ Years Experience",
-    specialty: ["Micro Realism", "Geometric", "Hand Poke", "PMU Microblading"],
-    bio: "Celebrated for surgical linework and subtle gradient shading. Aria leads our PMU microblading division with a focus on organic facial contours.",
-    instagram: "https://www.instagram.com/gunslingerstattoostudio?rpxt=dXR0M3A2ZXU3NDhk",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80"
+    avatar: "./images/regenerated_image_1794466551453.jpg"
   },
   {
     id: "academy-instructor",
@@ -176,7 +166,7 @@ export const ARTISTS: Artist[] = [
     specialty: ["Tattoo School Mentorship", "Body Piercing", "Neo-Traditional", "Blackwork"],
     bio: "Guiding the next generation of tattoo artists through hands-on rigor, sterile protocols, and deep understanding of skin biology and machine engineering.",
     instagram: "https://www.instagram.com/gunslingerstattoostudio?rpxt=dXR0M3A2ZXU3NDhk",
-    avatar: "/src/assets/images/regenerated_image_1794466553335.jpg"
+    avatar: "./images/regenerated_image_1794466553335.jpg"
   }
 ];
 
@@ -189,7 +179,7 @@ export const PORTFOLIO_WORKS: TattooWork[] = [
     placement: "Outer Forearm / Radial Curvature",
     duration: "4.5 hours",
     description: "Surgical single-needle swallow in dynamic flight enveloped by a delicate stippled pointillism crescent moon. Micro-feather shading and razor-sharp contour stabilization.",
-    image: "/assets/aistudio/7d04a737-26fc-42b3-8f15-470810dafa49_630b0d2e.jpg",
+    image: "./images/7d04a737-26fc-42b3-8f15-470810dafa49_630b0d2e.jpg",
     contentSubject: "Swallow Bird & Stippled Crescent Moon",
     tags: ["#FineLine", "#Dotwork", "#AvianArt", "#MicroShading", "#GunslingersMaster"],
     complexity: "Masterclass",
@@ -203,7 +193,7 @@ export const PORTFOLIO_WORKS: TattooWork[] = [
     placement: "Bicep / Inner Arm Anatomy",
     duration: "5.5 hours",
     description: "Vibrant high-saturation wildlife realism with multi-tonal fur texturing, emerald foliage bokeh, and sunlight dappling. Custom organic composition crafted for the client.",
-    image: "/assets/aistudio/0012c1c1-02d0-4bc8-aea4-94aba80990a7_c2b8995e.jpg",
+    image: "./images/0012c1c1-02d0-4bc8-aea4-94aba80990a7_c2b8995e.jpg",
     contentSubject: "Hanging Sloth in Rainforest Canopy",
     tags: ["#ColorRealism", "#WildlifeTattoo", "#BotanicalColor", "#FurTexture", "#KochiInk"],
     complexity: "Masterclass",
@@ -217,7 +207,7 @@ export const PORTFOLIO_WORKS: TattooWork[] = [
     placement: "Lateral Deltoid & Outer Tricep",
     duration: "6 hours",
     description: "Faithful fine-art translation of the neoclassical mythological sculpture into skin. Soft marble draping, feathered anatomical wings, and smooth charcoal greywash transitions.",
-    image: "/assets/aistudio/74f668d7-17a2-40ad-87c5-29a95bce1e42_a59b947f.jpg",
+    image: "./images/74f668d7-17a2-40ad-87c5-29a95bce1e42_a59b947f.jpg",
     contentSubject: "Eros & Psyche Mythological Neoclassical Figures",
     tags: ["#Renaissance", "#SculptureRealism", "#BlackAndGrey", "#FineArtTattoo", "#DeltoidFlow"],
     complexity: "Masterclass",
@@ -231,7 +221,7 @@ export const PORTFOLIO_WORKS: TattooWork[] = [
     placement: "Anterior Forearm & Radial Wrist",
     duration: "4 hours",
     description: "Woodcut-inspired solar eye burst paired with mirrored serif typography and architectural circular crucifix. Precise negative space dynamics and crisp linework weight.",
-    image: "/assets/aistudio/f66d04a8-4afb-4877-8aad-08bb5ad2877b_9477993a.jpg",
+    image: "./images/f66d04a8-4afb-4877-8aad-08bb5ad2877b_9477993a.jpg",
     contentSubject: "Woodcut All-Seeing Eye, 'REMEMBER' & Geometric Cross",
     tags: ["#Woodcut", "#SacredGeometry", "#Typography", "#Blackwork", "#ForearmDesign"],
     complexity: "Intermediate",
@@ -245,7 +235,7 @@ export const PORTFOLIO_WORKS: TattooWork[] = [
     placement: "Clavicle & Upper Collarbone",
     duration: "2.5 hours",
     description: "Avant-garde cross-stitch embroidery illusion rendered in micro-red ink crosses, paired with delicate charcoal berry stems following the natural curvature of the clavicle.",
-    image: "/assets/aistudio/45391f55-568d-4693-a0e7-73a3d555890e_45a09f46.jpg",
+    image: "./images/45391f55-568d-4693-a0e7-73a3d555890e_45a09f46.jpg",
     contentSubject: "Embroidery Cross-Stitch Flora & Winter Berries",
     tags: ["#EmbroideryTattoo", "#CrossStitch", "#ClaviclePlacement", "#MicroColor", "#Minimalist"],
     complexity: "Fine-Detail",
@@ -259,7 +249,7 @@ export const PORTFOLIO_WORKS: TattooWork[] = [
     placement: "Dorsal Hand & Wrist Anatomy",
     duration: "Clinical Session 01",
     description: "Documented pigment breakdown and fading of dense black hand ink after a single targeted laser session. Safe dermal clearance paving the way for a bespoke cover-up.",
-    image: "/assets/aistudio/c00fcedc-9e84-4945-b31d-5cb000046fb2_abe2065f.jpg",
+    image: "./images/c00fcedc-9e84-4945-b31d-5cb000046fb2_abe2065f.jpg",
     contentSubject: "Before & After 1st Session Laser Ink Degradation",
     tags: ["#LaserRemoval", "#CoverupPrep", "#SkinHealth", "#ClinicalSanitation", "#KochiLaser"],
     complexity: "Clinical Procedure",
@@ -273,7 +263,7 @@ export const PORTFOLIO_WORKS: TattooWork[] = [
     placement: "Studio Chair / Live Atelier Session",
     duration: "Atelier Experience",
     description: "Behind-the-scenes view of our sterile cleanroom ergonomics, custom client anatomical stencil mapping, and wireless rotary machine precision at Gunslingers Studio.",
-    image: "/assets/aistudio/02b1cfa3-2f8e-45d7-809c-54cf440f9cd6_82705848.jpg",
+    image: "./images/02b1cfa3-2f8e-45d7-809c-54cf440f9cd6_82705848.jpg",
     contentSubject: "Artist & Client Ergonomics in Studio Suite",
     tags: ["#AtelierLife", "#GunslingersKochi", "#SterileProtocol", "#ArtistCraft", "#LiveSession"],
     complexity: "Studio Craft",
