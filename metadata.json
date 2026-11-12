@@ -1,0 +1,6 @@
+{
+  "name": "GUNSLINGERS TATTOO SCHOOL & STUDIO",
+  "description": "Premium tattoo studio and academy in Kochi. Custom tattoos, laser removal, body piercings, hand poke, PMU microblading, and comprehensive tattoo training.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
