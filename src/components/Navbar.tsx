@@ -20,13 +20,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onBookClick }) => {
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-black/[0.08] transition-all">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 h-24 flex items-center justify-between gap-8">
-        {/* Zone 1: Brand Wordmark with transparent seamless logo (no solid box) */}
+        {/* Zone 1: Brand Wordmark with circular framed logo */}
         <a href="#" className="flex items-center gap-4 shrink-0 group">
-          <div className="relative flex items-center justify-center transition-transform group-hover:scale-105 duration-300">
+          <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white border-[1.5px] border-black/85 ring-1 ring-black/15 ring-offset-2 p-1.5 flex items-center justify-center overflow-hidden shadow-[0_2px_10px_rgba(0,0,0,0.06)] transition-all duration-300 group-hover:scale-105 group-hover:border-black group-hover:shadow-[0_4px_14px_rgba(0,0,0,0.1)] shrink-0">
             <img 
               src="./images/gunslingers-logo-light.png" 
               alt="Gunslingers Tattoo Logo" 
-              className="h-14 sm:h-16 w-auto object-contain block drop-shadow-none"
+              className="w-full h-full object-contain block"
             />
           </div>
           <div className="flex flex-col">
