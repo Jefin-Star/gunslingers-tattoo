@@ -22,12 +22,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onBookClick }) => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 h-24 flex items-center justify-between gap-8">
         {/* Zone 1: Brand Wordmark with circular framed logo */}
         <a href="#" className="flex items-center gap-4 shrink-0 group">
-          <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white border-[1.5px] border-black/85 ring-1 ring-black/15 ring-offset-2 p-1.5 flex items-center justify-center overflow-hidden shadow-[0_2px_10px_rgba(0,0,0,0.06)] transition-all duration-300 group-hover:scale-105 group-hover:border-black group-hover:shadow-[0_4px_14px_rgba(0,0,0,0.1)] shrink-0">
-            <img 
-              src="./images/gunslingers-logo-light.png" 
-              alt="Gunslingers Tattoo Logo" 
-              className="w-full h-full object-contain block"
-            />
+          <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-black p-[3px] flex items-center justify-center overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.16)] transition-all duration-300 group-hover:scale-105 group-hover:shadow-[0_4px_16px_rgba(0,0,0,0.24)] shrink-0">
+            <div className="w-full h-full rounded-full bg-black border-[1.5px] border-white flex items-center justify-center p-1.5 overflow-hidden">
+              <img 
+                src="./images/gunslingers-logo-white.png" 
+                alt="Gunslingers Tattoo Logo" 
+                className="w-full h-full object-contain block"
+              />
+            </div>
           </div>
           <div className="flex flex-col">
             <span className="font-display font-bold text-base sm:text-lg tracking-[0.08em] text-black leading-none uppercase">
